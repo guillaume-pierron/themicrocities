@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="item">
+        <div class="connect-button">
+            <a href="index.html"> <button class="glow-on-hover">Connecter un wallet</button></a>
+        </div>
+        <a href="index.html" class="home-button"><img src="assets/img/logo2.svg"></a>
+    </section>
+
+
+    <section class="product-section">
+        <div class="product">
+            <div class="content-info-product">
+                <img id="myImg" src="assets/img/arena.jpg" alt="Snow" style="width:100%;">
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+
+                </div>
+            </div>
+            <div class="title-product">
+
+                <h1>ALLIANZ ARENA #7</h1>
+                <div class="action-button">
+                    <a class="btn-product" href="index.html">
+                        <div class="btn btn-one">
+                            <span class="button-button">FAIRE UNE OFFRE</span>
+                        </div>
+                    </a>
+                    <a href="index.html">
+                        <div class="btn btn-one">
+                            <span class="button-button">ACHETER MAINTENANT</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="description-product">
+                    <h2>Description</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo.</p>
+                </div>
+                <div class="tabs">
+
+                    <div class="tabby-tab">
+                        <input type="radio" id="tab-1" name="tabby-tabs" checked="">
+                        <label for="tab-1">Historique du prix</label>
+                        <div class="tabby-content">
+                            <div class="chartjs-size-monitor">
+                                <div class="chartjs-size-monitor-expand">
+                                    <div class=""></div>
+                                </div>
+                                <div class="chartjs-size-monitor-shrink">
+                                    <div class=""></div>
+                                </div>
+                            </div>
+
+                            <canvas id="myChart" style="width: 100%; max-width: 600px; display: block;" width="410"
+                                height="205" class="chartjs-render-monitor"></canvas>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="tabby-tab">
+                        <input type="radio" id="tab-2" name="tabby-tabs">
+                        <label for="tab-2">Enchères info</label>
+                        <div class="tabby-content">
+                            <div class="flex-list sc1">
+
+
+                                <ul class="list-bid">
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="name">
+                                                            <h6>Mason Woodward</h6>
+                                                            <span> A fait une offre</span>
+                                                        </div>
+                                                        <span class="time">Il y a 8h</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h5>4.89 ETH</h5>
+                                                <span>= $12.246</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="name">
+                                                            <h6>Mason Woodward</h6>
+                                                            <span> A fait une offre</span>
+                                                        </div>
+                                                        <span class="time">Il y a 8h</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h5>4.89 ETH</h5>
+                                                <span>= $12.246</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="name">
+                                                            <h6>Mason Woodward</h6>
+                                                            <span> A fait une offre</span>
+                                                        </div>
+                                                        <span class="time">Il y a 8h</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h5>4.89 ETH</h5>
+                                                <span>= $12.246</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="name">
+                                                            <h6>Mason Woodward</h6>
+                                                            <span> A fait une offre</span>
+                                                        </div>
+                                                        <span class="time">Il y a 8h</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h5>4.89 ETH</h5>
+                                                <span>= $12.246</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="name">
+                                                            <h6>Mason Woodward</h6>
+                                                            <span> A fait une offre</span>
+                                                        </div>
+                                                        <span class="time">Il y a 8h</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <h5>4.89 ETH</h5>
+                                                <span>= $12.246</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                            </div>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tabby-tab">
+                        <input type="radio" id="tab-3" name="tabby-tabs">
+                        <label for="tab-3">Historique des enchères</label>
+                        <div class="tabby-content">
+                            <div class="flex-list sc1">
+
+
+                                <ul class="list-bid">
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="bid-status">
+
+                                                            <span> Offre accepté</span>
+                                                            <span class="bid-value"> 1.2 ETH</span>
+                                                            <h6>par</h6>
+                                                            <span class="owner">Ownplace</span>
+                                                        </div>
+                                                        <span class="time">18/04/2022, 17h05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="bid-status">
+
+                                                            <span> Offre accepté</span>
+                                                            <span class="bid-value"> 1.2 ETH</span>
+                                                            <h6>par</h6>
+                                                            <span class="owner">Ownplace</span>
+                                                        </div>
+                                                        <span class="time">18/04/2022, 17h05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="bid-status">
+
+                                                            <span> Offre accepté</span>
+                                                            <span class="bid-value"> 1.2 ETH</span>
+                                                            <h6>par</h6>
+                                                            <span class="owner">Ownplace</span>
+                                                        </div>
+                                                        <span class="time">18/04/2022, 17h05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="bid-status">
+
+                                                            <span> Offre accepté</span>
+                                                            <span class="bid-value"> 1.2 ETH</span>
+                                                            <h6>par</h6>
+                                                            <span class="owner">Ownplace</span>
+                                                        </div>
+                                                        <span class="time">18/04/2022, 17h05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li item="[object Object]">
+                                        <div class="content">
+                                            <div class="client">
+                                                <div class="sc-author-box style-2">
+                                                    <div class="author-avatar">
+                                                        <a href="/item-details-01">
+                                                            <img src="assets/img/avatar.png" alt="Axies"
+                                                                class="avatar"></a>
+                                                        <div class="badge">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-infor">
+                                                        <div class="bid-status">
+
+                                                            <span> Offre accepté</span>
+                                                            <span class="bid-value"> 1.2 ETH</span>
+                                                            <h6>par</h6>
+                                                            <span class="owner">Ownplace</span>
+                                                        </div>
+                                                        <span class="time">18/04/2022, 17h05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+
+                            </div>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="tabby-tab">
+                        <input type="radio" id="tab-4" name="tabby-tabs">
+                        <label for="tab-4">Détail</label>
+                        <div class="tabby-content">
+
+                            <span class="text-responsive">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    <section class="footer">
+
+        <div class="footer-menu">
+
+            <ul>
+                <li>
+                    <p href="#">FAQ</p>
+                </li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Politique de cookies</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p href="#">Contact</p>
+                </li>
+                <li><a href="#">contact@ownplace.com</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p href="#">A propos</p>
+                </li>
+                <li><a href="#">Créateur</a></li>
+            </ul>
+            <div class="logo-footer">
+                <img src="assets/img/logo2.svg" alt="">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,</p>
+                <div class="media">
+                    <img src="assets/img/insta.svg">
+                    <img src="assets/img/pinterest.svg">
+                    <img src="assets/img/facebook.svg">
+                </div>
+                <div class="copyright">
+                    <h2>@copyright 2022 - Ownplace</h2>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="assets/css/js/chart.js"></script>
+    <script src="assets/css/js/modal.js"></script>
+</body>
+
+</html>
